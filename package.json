@@ -1,0 +1,17 @@
+{
+  "name": "celo-game-hub",
+  "version": "1.0.0",
+  "description": "Play-to-Earn Gaming DApp on Celo",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "keywords": ["celo", "gaming", "nft", "defi"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "hardhat": "^2.6.8"
+  }
+}
