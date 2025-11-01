@@ -12,9 +12,9 @@ A decentralized gaming platform on Celo blockchain featuring:
 
 ## Deployment
 Deployed on Celo Alfajores Testnet:
-- GameToken: `0x...`
-- NFTicket: `0x...`
-- GameHub: `0x...`
+- GameToken: `0x0fC5025C764cE34df352757e82f7B5c4Df39A836`
+- NFTicket: `0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c`
+- GameHub: `0xcD6a42782d230D7c13A74ddec5dD140e55499Df9`
 
 ## Tech Stack
 - Solidity ^0.8.0
