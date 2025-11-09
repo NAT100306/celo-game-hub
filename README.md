@@ -6,30 +6,45 @@
 # 📖 Table of Contents
  
    🔹🌟 Introduction
+   
    🔹🎯 Features
+   
    🔹🏗️ Smart Contracts
+   
    🔹🚀 Quick Start
+   
    🔹🔗 Live Deployment
+   
    🔹💻 Usage Guide
+   
    🔹🛠️ Tech Stack
+   
    🔹📁 Project Structure
+   
    🔹🔧 Development
+   
    🔹🤝 Contributing
+   
    🔹📄 License
+   
    🔹👥 Team
+   
 
-# 🌟Introduction
+# 🌟 Introduction
 
    Celo Game Hub is a revolutionary decentralized gaming platform built on the Celo blockchain that combines Play-to-Earn   mechanics with NFT technology. Our mission is to democratize gaming economics by empowering players in emerging markets with true digital ownership and sustainable earning opportunities.
 
 # 🎯 Problem We Solve
 
-  ## 🔹 🎮 Gamers cannot monetize their skills and time investment
-  ## 🔹 💰 High transaction barriers in traditional gaming platforms
-  ## 🔹 🎫 Ticket fraud and lack of true ownership in event management
-  ## 🔹 🌍 Financial exclusion for gamers in emerging markets
+   🔹 🎮 Gamers cannot monetize their skills and time investment
+   
+   🔹 💰 High transaction barriers in traditional gaming platforms
+   
+   🔹 🎫 Ticket fraud and lack of true ownership in event management
+  
+   🔹 🌍 Financial exclusion for gamers in emerging markets
 
-#💡 Our Solution
+# 💡 Our Solution
   
   🔹 ✅ Play-to-Earn mechanics with real monetary rewards
   
@@ -39,38 +54,59 @@
   
   🔹 ✅ Mobile-first approach for global accessibility
   
-#🎯 Features
+# 🎯 Features
 
-  #🎮 Core Gaming Features
-    🔹 Play-to-Earn Mechanics: Earn Celo Game Tokens (CGT) by playing games
-    🔹 Skill-Based Rewards: Rewards based on demonstrated gaming skills
-    🔹 Tournament System: Competitive gameplay with prize pools
-    🔹 Leaderboard Tracking: Real-time player rankings and statistics
+  # 🎮 Core Gaming Features
   
-  #🎫 NFT Ticketing System
-    🔹 Digital Ownership: True ownership of event tickets as NFTs
-    🔹 Anti-Fraud Protection: Verifiable and tamper-proof tickets
-    🔹 Royalty Mechanism: Automatic royalties for organizers on resales
-    🔹 Transferable Assets: Easy ticket transfer and gifting
+   🔹 Play-to-Earn Mechanics: Earn Celo Game Tokens (CGT) by playing games
     
-  #💰 Token Economy
-    🔹 Dual Token System: CGT (utility) and cUSD (stablecoin) integration
-    🔹 Micro-Earnings Support: Rewards as low as $0.10 per session
-    🔹 Low Withdrawal Threshold: Easy cash-out to stablecoins
-    🔹 Sustainable Economy: Balanced token minting and burning
+   🔹 Skill-Based Rewards: Rewards based on demonstrated gaming skills
     
-#🏗️ Smart Contracts
+   🔹 Tournament System: Competitive gameplay with prize pools
+   
+   🔹 Leaderboard Tracking: Real-time player rankings and statistics
+  
+  # 🎫 NFT Ticketing System
+  
+   🔹 Digital Ownership: True ownership of event tickets as NFTs
+    
+   🔹 Anti-Fraud Protection: Verifiable and tamper-proof tickets
+    
+   🔹 Royalty Mechanism: Automatic royalties for organizers on resales
+    
+   🔹 Transferable Assets: Easy ticket transfer and gifting
+    
+  # 💰 Token Economy
+  
+   🔹 Dual Token System: CGT (utility) and cUSD (stablecoin) integration
+    
+   🔹 Micro-Earnings Support: Rewards as low as $0.10 per session
+    
+   🔹 Low Withdrawal Threshold: Easy cash-out to stablecoins
+    
+   🔹 Sustainable Economy: Balanced token minting and burning
+    
+# 🏗️ Smart Contracts
 
-  #📋 Contract Overview
-    Contract  | Type	 | Purpose	                 |  Status    
+  # 📋 Contract Overview
+  
+   Contract  | Type	 | Purpose	                 |  Status    
+    
+   ------------------------------------------------------------
+    
+   GameToken |ERC-20  | In-game reward token	     |✅ Deployed
+    
+   ------------------------------------------------------------
+    
+   NFTicket	  |NFT	   | Event ticketing system	   |✅ Deployed
+    
+   ------------------------------------------------------------
+    
+   GameHub	  |Main	   | Gaming logic & management |✅ Deployed
+    
     ------------------------------------------------------------
-    GameToken |ERC-20  | In-game reward token	     |✅ Deployed
-    ------------------------------------------------------------
-    NFTicket	|NFT	   | Event ticketing system	   |✅ Deployed
-    ------------------------------------------------------------
-    GameHub	  |Main	   | Gaming logic & management |✅ Deployed
-    ------------------------------------------------------------
-#🔗 Contract Details
+    
+# 🔗 Contract Details
 
 GameToken.sol
 solidity
