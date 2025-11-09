@@ -1,7 +1,13 @@
 # 🎮 Celo Game Hub - Play-to-Earn Gaming DApp
-
-![Celo Platform](https://img.shields.io/badge/Celo-Platform-35D07F?logo=celo&logoColor=white)
-
+  ## Applications used in the project
+  
+ ![Celo Platform](https://img.shields.io/badge/Celo-Platform-35D07F?logo=celo&logoColor=white) 
+ ![Solidity 0.8.0](https://img.shields.io/badge/Solidity-0.8.0-363636?logo=solidity&logoColor=white)
+ ![Web3.js 4.x](https://img.shields.io/badge/Web3.js-4.x-F16822?logo=web3.js&logoColor=white)
+ ![Status Live](https://img.shields.io/badge/Status-Live-brightgreen)
+ ![License MIT](https://img.shields.io/badge/License-MIT-yellow)
+ ![NFT Ticketing](https://img.shields.io/badge/Play--To--Earn-Enabled-success)
+ ![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue)
 
 
 # 📖 Table of Contents
@@ -35,7 +41,7 @@
 
    Celo Game Hub is a revolutionary decentralized gaming platform built on the Celo blockchain that combines Play-to-Earn   mechanics with NFT technology. Our mission is to democratize gaming economics by empowering players in emerging markets with true digital ownership and sustainable earning opportunities.
 
-# 🎯 Problem We Solve
+## 🎯 Problem We Solve
 
    🔹 🎮 Gamers cannot monetize their skills and time investment
    
@@ -45,7 +51,7 @@
   
    🔹 🌍 Financial exclusion for gamers in emerging markets
 
-# 💡 Our Solution
+## 💡 Our Solution
   
   🔹 ✅ Play-to-Earn mechanics with real monetary rewards
   
@@ -90,69 +96,71 @@
 # 🏗️ Smart Contracts
 
   ## 📋 Contract Overview
-  
-   Contract  | Type	 | Purpose	                 |  Status    
-    
-   ------------------------------------------------------------
-    
-   GameToken |ERC-20  | In-game reward token	     |✅ Deployed
-    
-   ------------------------------------------------------------
-    
-   NFTicket	  |NFT	   | Event ticketing system	   |✅ Deployed
-    
-   ------------------------------------------------------------
-    
-   GameHub	  |Main	   | Gaming logic & management |✅ Deployed
-    
-   ------------------------------------------------------------
-    
+ 
+    Contract	 Type	      Purpose	                   Status
+    GameToken	ERC-20	     In-game reward token	      ✅ Deployed
+    NFTicket	NFT	         Event ticketing system	      ✅ Deployed
+    GameHub	    Main	     Gaming logic & management	  ✅ Deployed
+
+     
 # 🔗 Contract Details
 
 GameToken.sol
-solidity
-// ERC-20 Token for in-game economy
-- Name: CeloGameToken
-- Symbol: CGT
-- Decimals: 18
-- Total Supply: 1,000,000 CGT
-- Features: Minting, Burning, Transfers, cUSD Conversion
+
+    solidity
+
+    // ERC-20 Token for in-game economy
+    - Name: CeloGameToken
+    - Symbol: CGT
+    - Decimals: 18
+    - Total Supply: 1,000,000 CGT
+    - Features: Minting, Burning, Transfers, cUSD Conversion
 
 NFTicket.sol
-solidity
-// NFT-based Event Ticketing System
-- Name: CeloGameTicket
-- Symbol: CGTicket
-- Standards: ERC-721 Compatible
-- Features: Ticket Minting, Transfer, Usage Tracking, Royalties
+
+    solidity
+
+    // NFT-based Event Ticketing System
+    - Name: CeloGameTicket
+    - Symbol: CGTicket
+    - Standards: ERC-721 Compatible
+    - Features: Ticket Minting, Transfer, Usage Tracking, Royalties
 GameHub.sol
-solidity
-// Main Gaming Contract
-- Features: Gameplay Logic, Score Tracking, Tournament Management
-- Integration: GameToken & NFTicket Coordination
-- Security: Reentrancy Guard, Access Control, Emergency Stops
 
-🚀 Quick Start
-⚡ 5-Minute Setup Guide
-Prerequisites
-Web3 Wallet: MetaMask or Celo Wallet
+    solidity
 
-Testnet Tokens: Get from Celo Faucet
+    // Main Gaming Contract
+    - Features: Gameplay Logic, Score Tracking, Tournament Management
+    - Integration: GameToken & NFTicket Coordination
+    - Security: Reentrancy Guard, Access Control, Emergency Stops
 
-Remix IDE: remix.ethereum.org
+# 🚀 Quick Start
 
-Step 1: Setup Wallet
-Install MetaMask browser extension
+## ⚡ 5-Minute Setup Guide
 
-Add Celo Alfajores Testnet:
+   Prerequisites
+   
+   Web3 Wallet: MetaMask or Celo Wallet
+     
+   Testnet Tokens: Get from Celo Faucet
+     
+   Remix IDE: remix.ethereum.org
+     
+  Step 1: Setup Wallet
+  
+   Install MetaMask browser extension
+     
+   Add Celo Alfajores Testnet:
 
-javascript
-Network Name: Celo Alfajores Testnet
-RPC URL: https://alfajores-forno.celo-testnet.org
-Chain ID: 44787
-Currency Symbol: CELO
-Block Explorer: https://alfajores.celoscan.io
+    javascript
+    Network Name: Celo Alfajores Testnet
+    RPC URL: https://alfajores-forno.celo-testnet.org
+    Chain ID: 44787
+    Currency Symbol: CELO
+    Block Explorer: https://alfajores.celoscan.io
+    
 Step 2: Get Test Tokens
+
 Visit Celo Faucet
 
 Connect your wallet
@@ -160,6 +168,7 @@ Connect your wallet
 Request both CELO (gas) and cUSD (transactions)
 
 Step 3: Deploy Contracts
+
 Open Remix IDE
 
 Create new files and paste contract code
@@ -168,292 +177,304 @@ Compile contracts with Solidity 0.8.0+
 
 Deploy in order:
 
-bash
-# 1. Deploy GameToken
-Contract: GameToken → Deploy
+    bash
+    # 1. Deploy GameToken
+    Contract: GameToken → Deploy
+    
+    # 2. Deploy NFTicket
+    Contract: NFTicket → Deploy
+    
+    # 3. Deploy GameHub with parameters:
+    Contract: GameHub → 
+    Parameters: ["0xGameTokenAddress", "0xNFTicketAddress"] → Deploy
+    
+# 🔗 Live Deployment
 
-# 2. Deploy NFTicket
-Contract: NFTicket → Deploy
+## 🌐 Celo Alfajores Testnet
+     Contract	   Address	                                     Explorer Link
+     GameToken	    0x0fC5025C764cE34df352757e82f7B5c4Df39A836	  View on CeloScan
+     NFTicket	    0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c	  View on CeloScan
+     GameHub	    0xcD6a42782d230D7c13A74ddec5dD140e55499Df9	  View on CeloScan
 
-# 3. Deploy GameHub with parameters:
-Contract: GameHub → 
-Parameters: ["0xGameTokenAddress", "0xNFTicketAddress"] → Deploy
-🔗 Live Deployment
+## 📊 Deployment Verification
 
-🌐 Celo Alfajores Testnet
-Contract	Address	Explorer Link
-GameToken	0x0fC5025C764cE34df352757e82f7B5c4Df39A836	View on CeloScan
-NFTicket	0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c	View on CeloScan
-GameHub	0xcD6a42782d230D7c13A74ddec5dD140e55499Df9	View on CeloScan
-
-📊 Deployment Verification
 All contracts are successfully verified and publicly accessible on CeloScan. You can interact with them directly through the block explorer or via Remix IDE.
 
-💻 Usage Guide
-🎮 For Players
+# 💻 Usage Guide
+## 🎮 For Players
 Playing Games & Earning Rewards
-javascript
-// Connect to GameHub contract
-const score = await gameHub.playGame();
 
-// Check your stats
-const stats = await gameHub.getPlayerStats(walletAddress);
-console.log(`Score: ${stats.score}, Last Play: ${stats.lastPlayTime}`);
-
-// Claim rewards (if implemented)
-await gameHub.claimRewards();
+       javascript
+       // Connect to GameHub contract
+       const score = await gameHub.playGame();
+       // Check your stats
+       const stats = await gameHub.getPlayerStats(walletAddress);
+       console.log(`Score: ${stats.score}, Last Play: ${stats.lastPlayTime}`);
+       // Claim rewards (if implemented)
+       await gameHub.claimRewards();
+    
 Managing NFT Tickets
-javascript
-// Purchase event ticket
-await nfTicket.mintTicket(
-  yourAddress,           // Recipient
-  1,                     // Event ID
-  "1000000000000000000", // Price (1 cUSD)
-  "Celo Gaming Championship" // Event name
-);
 
-// Check ticket balance
-const balance = await nfTicket.balanceOf(yourAddress);
-
-// Transfer ticket to friend
-await nfTicket.transfer(friendAddress, tokenId);
+    javascript
+    // Purchase event ticket
+    await nfTicket.mintTicket(
+      yourAddress,           // Recipient
+      1,                     // Event ID
+      "1000000000000000000", // Price (1 cUSD)
+      "Celo Gaming Championship" // Event name
+    );
+    
+    // Check ticket balance
+    const balance = await nfTicket.balanceOf(yourAddress);
+    
+    // Transfer ticket to friend
+    await nfTicket.transfer(friendAddress, tokenId);
+    
 Token Management
-javascript
-// Check token balance
-const tokenBalance = await gameToken.balanceOf(yalletAddress);
 
-// Transfer tokens to another player
-await gameToken.transfer(recipientAddress, amount);
+    javascript
+     // Check token balance
+     const tokenBalance = await gameToken.balanceOf(yalletAddress);
+          
+     // Transfer tokens to another player
+     await gameToken.transfer(recipientAddress, amount);
+        
+     // Convert to stablecoin (if implemented)
+     await gameToken.convertToCUSD(amount);
+    
+## 🎪 For Event Organizers
 
-// Convert to stablecoin (if implemented)
-await gameToken.convertToCUSD(amount);
-🎪 For Event Organizers
 Creating Events
-javascript
-// Mint tickets for your event
-await nfTicket.mintTicket(
-  attendeeAddress,
-  eventId,
-  ticketPrice,
-  "Your Event Name"
-);
 
-// Set up royalty percentage
-await nfTicket.setRoyaltyPercentage(500); // 5%
+    javascript
+    // Mint tickets for your event
+    await nfTicket.mintTicket(
+      attendeeAddress,
+      eventId,
+      ticketPrice,
+      "Your Event Name"
+    );
+    
+    // Set up royalty percentage
+    await nfTicket.setRoyaltyPercentage(500); // 5%
 
-🛠️ For Developers
+## 🛠️ For Developers
+
 Extending GameHub
-solidity
-// Add new game types
-function addNewGameType(string memory gameName, uint256 rewardMultiplier) public onlyOwner {
-    gameTypes[gameName] = GameType(gameName, rewardMultiplier, true);
-}
 
-// Custom tournament logic
-function createCustomTournament(
-    uint256 entryFee, 
-    uint256 prizePool, 
-    uint256 maxPlayers
-) public returns (uint256) {
-    // Implementation details
-}
+    solidity
+    // Add new game types
+    function addNewGameType(string memory gameName, uint256 rewardMultiplier) public onlyOwner {
+        gameTypes[gameName] = GameType(gameName, rewardMultiplier, true);
+    }
+    
+    // Custom tournament logic
+    function createCustomTournament(
+        uint256 entryFee, 
+        uint256 prizePool, 
+        uint256 maxPlayers
+    ) public returns (uint256) {
+        // Implementation details
+    }
 
-🛠️ Tech Stack
-🔗 Blockchain & Smart Contracts
-Network: Celo Blockchain (Alfajores Testnet & Mainnet Ready)
+# 🛠️ Tech Stack
 
-Smart Contracts: Solidity ^0.8.0
+## 🔗 Blockchain & Smart Contracts
 
-Development: Remix IDE, Hardhat
+- Network: Celo Blockchain (Alfajores Testnet & Mainnet Ready)
 
-Security: OpenZeppelin Contracts, ReentrancyGuard
+- Smart Contracts: Solidity ^0.8.0
 
-Standards: ERC-20, ERC-721
+- Development: Remix IDE, Hardhat
 
-💻 Frontend & Integration
-Web3 Libraries: Web3.js, Ethers.js
+- Security: OpenZeppelin Contracts, ReentrancyGuard
 
-Frameworks: React.js, Next.js (Future Implementation)
+- Standards: ERC-20, ERC-721
 
-UI/UX: Tailwind CSS, Chakra UI
+## 💻 Frontend & Integration
+- Web3 Libraries: Web3.js, Ethers.js
 
-Mobile: React Native (Planned)
+- Frameworks: React.js, Next.js (Future Implementation)
 
-Wallets: MetaMask, Celo Wallet, WalletConnect
+- UI/UX: Tailwind CSS, Chakra UI
 
-🚀 Infrastructure
-Storage: IPFS (for NFT metadata)
+- Mobile: React Native (Planned)
 
-Oracles: Chainlink (for random number generation)
+- Wallets: MetaMask, Celo Wallet, WalletConnect
 
-API: The Graph (for indexed queries)
+## 🚀 Infrastructure
+- Storage: IPFS (for NFT metadata)
 
-Monitoring: Tenderly, Blocknative
+- Oracles: Chainlink (for random number generation)
 
-📁 Project Structure
-text
+- API: The Graph (for indexed queries)
 
-celo-game-hub/
+- Monitoring: Tenderly, Blocknative
 
+# 📁 Project Structure
 
-├── 📄 contracts/                 # Smart Contracts
+    text
 
-│   ├── 🎮 GameHub.sol            # Main gaming logic
+    celo-game-hub/
+    
+    ├── 📄 contracts/                 # Smart Contracts
+    │   ├── 🎮 GameHub.sol            # Main gaming logic
+    │   ├── 💰 GameToken.sol          # ERC-20 reward token
+    │   └── 🎫 NFTicket.sol           # NFT ticketing system
+    ├── 📜 scripts/                   # Deployment Scripts
+    │   └── 🚀 deploy.js              # Contract deployment
+    ├── 🧪 test/                      # Test Cases
+    │   └── ✅ GameHub.test.js        # Comprehensive testing
+    ├── 📚 docs/                      # Documentation
+    │   ├── 📖 API.md                 # API documentation
+    │   └── 🎯 GUIDES.md              # Usage guides
+    ├── 🌐 frontend/                  # Frontend Application (Future)
+    │   ├── src/
+    │   ├── public/
+    │   └── package.json
+    ├── ⚙️ config/                    # Configuration Files
+    │   ├── hardhat.config.js
+    │   └── network-config.js
+    ├── 📄 README.md                  # Project Documentation
+    ├── 📄 LICENSE                    # MIT License
+    └── 📄 package.json               # Dependencies
+    
+# 🔧 Development
+## 🛠️ Local Development Setup
 
-│   ├── 💰 GameToken.sol          # ERC-20 reward token
-
-│   └── 🎫 NFTicket.sol           # NFT ticketing system
-
-├── 📜 scripts/                   # Deployment Scripts
-
-│   └── 🚀 deploy.js              # Contract deployment
-
-├── 🧪 test/                      # Test Cases
-
-│   └── ✅ GameHub.test.js        # Comprehensive testing
-
-├── 📚 docs/                      # Documentation
-
-│   ├── 📖 API.md                 # API documentation
-
-│   └── 🎯 GUIDES.md              # Usage guides
-
-├── 🌐 frontend/                  # Frontend Application (Future)
-
-│   ├── src/
-
-│   ├── public/
-
-│   └── package.json
-
-├── ⚙️ config/                    # Configuration Files
-
-│   ├── hardhat.config.js
-
-│   └── network-config.js
-
-├── 📄 README.md                  # Project Documentation
-
-├── 📄 LICENSE                    # MIT License
-
-└── 📄 package.json               # Dependencies
-🔧 Development
-🛠️ Local Development Setup
 Prerequisites
-Node.js 16+
+ - Node.js 16+
 
-Git
-
-MetaMask or Celo Wallet
+ - Git
+ 
+ - MetaMask or Celo Wallet
 
 Installation
-bash
-# Clone repository
-git clone https://github.com/NAT100306/celo-game-hub.git
-cd celo-game-hub
 
-# Install dependencies
-npm install
+    bash
+    # Clone repository
+    git clone https://github.com/NAT100306/celo-game-hub.git
+    cd celo-game-hub
+    
+    # Install dependencies
+    npm install
+    
+    # Compile contracts
+    npx hardhat compile
+    
+    # Run tests
+    npx hardhat test
+    
+    # Deploy to local network
+    npx hardhat run scripts/deploy.js --network localhost
+    
+## 🧪 Testing
 
-# Compile contracts
-npx hardhat compile
+    bash
+    # Run all tests
+    npx hardhat test
+    
+    # Run specific test file
+    npx hardhat test test/GameHub.test.js
+    
+    # Test with coverage
+    npx hardhat coverage
+    
+# 📦 Deployment
 
-# Run tests
-npx hardhat test
+    bash
+    # Deploy to Alfajores Testnet
+    npx hardhat run scripts/deploy.js --network alfajores
+    
+    # Deploy to Celo Mainnet
+    npx hardhat run scripts/deploy.js --network celo
+    
+    # Verify contracts
+    npx hardhat verify --network alfajores <CONTRACT_ADDRESS>
+    
+# 🤝 Contributing
 
-# Deploy to local network
-npx hardhat run scripts/deploy.js --network localhost
-🧪 Testing
-bash
-# Run all tests
-npx hardhat test
-
-# Run specific test file
-npx hardhat test test/GameHub.test.js
-
-# Test with coverage
-npx hardhat coverage
-📦 Deployment
-bash
-# Deploy to Alfajores Testnet
-npx hardhat run scripts/deploy.js --network alfajores
-
-# Deploy to Celo Mainnet
-npx hardhat run scripts/deploy.js --network celo
-
-# Verify contracts
-npx hardhat verify --network alfajores <CONTRACT_ADDRESS>
-🤝 Contributing
 We love your input! We want to make contributing to Celo Game Hub as easy and transparent as possible.
 
-📋 How to Contribute
-Fork the Repository
+### 📋 How to Contribute
 
-Create a Feature Branch
+1.Fork the Repository
 
-bash
-git checkout -b feature/amazing-feature
-Commit Your Changes
+2.Create a Feature Branch
 
-bash
-git commit -m 'Add some amazing feature'
-Push to the Branch
+    bash
+    git checkout -b feature/amazing-feature
+    
+3.Commit Your Changes
 
-bash
-git push origin feature/amazing-feature
-Open a Pull Request
+    bash
+    git commit -m 'Add some amazing feature'
+    
+4.Push to the Branch
 
-🎯 Contribution Areas
-🎮 New game mechanics and features
+    bash
+    git push origin feature/amazing-feature
+    
+5.Open a Pull Request
 
-🎫 Enhanced NFT ticketing functionality
+## 🎯 Contribution Areas
 
-💰 Improved token economics
+🔹🎮 New game mechanics and features
 
-📱 Mobile application development
+🔹🎫 Enhanced NFT ticketing functionality
 
-🧪 Additional test coverage
+🔹💰 Improved token economics
 
-📚 Documentation improvements
+🔹📱 Mobile application development
 
-🐛 Reporting Issues
+🔹🧪 Additional test coverage
+
+🔹📚 Documentation improvements
+
+## 🐛 Reporting Issues
+
 Please use GitHub Issues to report bugs or suggest features. Include:
 
-Detailed description of the issue
+- Detailed description of the issue
 
-Steps to reproduce
+- Steps to reproduce
 
-Expected vs actual behavior
+- Expected vs actual behavior
 
-Screenshots (if applicable)
+- Screenshots (if applicable)
 
-📄 License
+# 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-text
-MIT License
-Copyright (c) 2024 NAT100306
+    text
+    MIT License
+    Copyright (c) 2024 NAT100306
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+# 👥 Team
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 🔧 Core Contributors
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-👥 Team
-🔧 Core Contributors
-NAT100306 - Project Lead & Smart Contract Developer
+🔹 NAT100306 - Project Lead & Smart Contract Developer
 
-Blockchain Architecture
+   - Blockchain Architecture
 
-Smart Contract Development
+   - Smart Contract Development
 
-System Design
+   - System Design
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
+
 Celo Foundation for the amazing blockchain infrastructure
 
 Remix IDE team for the excellent development environment
@@ -462,7 +483,8 @@ OpenZeppelin for secure and audited contract templates
 
 Web3 Community for continuous inspiration and support
 
-📞 Contact & Support
+## 📞 Contact & Support
+
 GitHub Issues: 
 
 Documentation: Project Wiki
@@ -470,13 +492,16 @@ Documentation: Project Wiki
 Email: lua10032006@gmail.com
 
 <div align="center">
-🚀 Ready to Start Earning?
+ 
+# 🚀 Ready to Start Earning?
+ 
 Get started today and join the future of gaming economics!
 
-https://img.shields.io/badge/Deploy-Celo_Alfajores-35D07F?style=for-the-badge&logo=celo
-https://img.shields.io/badge/Try-Demo_Game-8A2BE2?style=for-the-badge
+![](https://img.shields.io/badge/Deploy-Celo_Alfajores-35D07F?style=for-the-badge&logo=celo)
+![](https://img.shields.io/badge/Try-Demo_Game-8A2BE2?style=for-the-badge)
 
-⭐ Don't forget to star this repository if you find it helpful!
+# ⭐ Don't forget to star this repository if you find it helpful!
+
 Built with ❤️ on Celo Blockchain - Empowering Gamers Worldwide
 
 </div>
