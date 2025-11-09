@@ -1,22 +1,26 @@
 # 🎮 Celo Game Hub - Play-to-Earn Gaming DApp
+
+
+
+
 # 📖 Table of Contents
  
-    🔹🌟 Introduction
-    🔹🎯 Features
-    🔹🏗️ Smart Contracts
-    🔹🚀 Quick Start
-    🔹🔗 Live Deployment
-    🔹💻 Usage Guide
-    🔹🛠️ Tech Stack
-    🔹📁 Project Structure
-    🔹🔧 Development
-    🔹🤝 Contributing
-    🔹📄 License
-    🔹👥 Team
+   🔹🌟 Introduction
+   🔹🎯 Features
+   🔹🏗️ Smart Contracts
+   🔹🚀 Quick Start
+   🔹🔗 Live Deployment
+   🔹💻 Usage Guide
+   🔹🛠️ Tech Stack
+   🔹📁 Project Structure
+   🔹🔧 Development
+   🔹🤝 Contributing
+   🔹📄 License
+   🔹👥 Team
 
 # 🌟Introduction
 
-    Celo Game Hub is a revolutionary decentralized gaming platform built on the Celo blockchain that combines Play-to-Earn   mechanics with NFT technology. Our mission is to democratize gaming economics by empowering players in emerging markets with true digital ownership and sustainable earning opportunities.
+   Celo Game Hub is a revolutionary decentralized gaming platform built on the Celo blockchain that combines Play-to-Earn   mechanics with NFT technology. Our mission is to democratize gaming economics by empowering players in emerging markets with true digital ownership and sustainable earning opportunities.
 
 # 🎯 Problem We Solve
 
@@ -28,8 +32,11 @@
 #💡 Our Solution
   
   🔹 ✅ Play-to-Earn mechanics with real monetary rewards
+  
   🔹 ✅ NFT-based ticketing system for verifiable ownership
+  
   🔹 ✅ Low-cost transactions on Celo blockchain
+  
   🔹 ✅ Mobile-first approach for global accessibility
   
 #🎯 Features
