@@ -1,4 +1,5 @@
 🎮 Celo Game Hub - Play-to-Earn Gaming DApp
+
 https://img.shields.io/badge/Celo-Platform-35D07F?logo=celo&logoColor=white
 https://img.shields.io/badge/Solidity-0.8.0-363636?logo=solidity&logoColor=white
 https://img.shields.io/badge/Web3.js-4.x-F16822?logo=web3.js&logoColor=white
@@ -55,6 +56,7 @@ Celo Game Hub is a revolutionary decentralized gaming platform built on the Celo
 ✅ Mobile-first approach for global accessibility
 
 🎯 Features
+
 🎮 Core Gaming Features
 Play-to-Earn Mechanics: Earn Celo Game Tokens (CGT) by playing games
 
@@ -83,6 +85,7 @@ Low Withdrawal Threshold: Easy cash-out to stablecoins
 Sustainable Economy: Balanced token minting and burning
 
 🏗️ Smart Contracts
+
 📋 Contract Overview
 Contract	Type	Purpose	Status
 GameToken	ERC-20	In-game reward token	✅ Deployed
@@ -110,6 +113,7 @@ solidity
 - Features: Gameplay Logic, Score Tracking, Tournament Management
 - Integration: GameToken & NFTicket Coordination
 - Security: Reentrancy Guard, Access Control, Emergency Stops
+
 🚀 Quick Start
 ⚡ 5-Minute Setup Guide
 Prerequisites
@@ -157,11 +161,13 @@ Contract: NFTicket → Deploy
 Contract: GameHub → 
 Parameters: ["0xGameTokenAddress", "0xNFTicketAddress"] → Deploy
 🔗 Live Deployment
+
 🌐 Celo Alfajores Testnet
 Contract	Address	Explorer Link
 GameToken	0x0fC5025C764cE34df352757e82f7B5c4Df39A836	View on CeloScan
 NFTicket	0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c	View on CeloScan
 GameHub	0xcD6a42782d230D7c13A74ddec5dD140e55499Df9	View on CeloScan
+
 📊 Deployment Verification
 All contracts are successfully verified and publicly accessible on CeloScan. You can interact with them directly through the block explorer or via Remix IDE.
 
@@ -216,6 +222,7 @@ await nfTicket.mintTicket(
 
 // Set up royalty percentage
 await nfTicket.setRoyaltyPercentage(500); // 5%
+
 🛠️ For Developers
 Extending GameHub
 solidity
@@ -232,6 +239,7 @@ function createCustomTournament(
 ) public returns (uint256) {
     // Implementation details
 }
+
 🛠️ Tech Stack
 🔗 Blockchain & Smart Contracts
 Network: Celo Blockchain (Alfajores Testnet & Mainnet Ready)
@@ -266,27 +274,50 @@ Monitoring: Tenderly, Blocknative
 
 📁 Project Structure
 text
+
 celo-game-hub/
+
+
 ├── 📄 contracts/                 # Smart Contracts
+
 │   ├── 🎮 GameHub.sol            # Main gaming logic
+
 │   ├── 💰 GameToken.sol          # ERC-20 reward token
+
 │   └── 🎫 NFTicket.sol           # NFT ticketing system
+
 ├── 📜 scripts/                   # Deployment Scripts
+
 │   └── 🚀 deploy.js              # Contract deployment
+
 ├── 🧪 test/                      # Test Cases
+
 │   └── ✅ GameHub.test.js        # Comprehensive testing
+
 ├── 📚 docs/                      # Documentation
+
 │   ├── 📖 API.md                 # API documentation
+
 │   └── 🎯 GUIDES.md              # Usage guides
+
 ├── 🌐 frontend/                  # Frontend Application (Future)
+
 │   ├── src/
+
 │   ├── public/
+
 │   └── package.json
+
 ├── ⚙️ config/                    # Configuration Files
+
 │   ├── hardhat.config.js
+
 │   └── network-config.js
+
 ├── 📄 README.md                  # Project Documentation
+
 ├── 📄 LICENSE                    # MIT License
+
 └── 📄 package.json               # Dependencies
 🔧 Development
 🛠️ Local Development Setup
