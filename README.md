@@ -5,29 +5,29 @@
 
 # 📖 Table of Contents
  
-   🔹🌟 Introduction
+   ## 🔹🌟 Introduction
    
-   🔹🎯 Features
+   ## 🔹🎯 Features
    
-   🔹🏗️ Smart Contracts
+   ## 🔹🏗️ Smart Contracts
    
-   🔹🚀 Quick Start
+   ## 🔹🚀 Quick Start
    
-   🔹🔗 Live Deployment
+   ## 🔹🔗 Live Deployment
    
-   🔹💻 Usage Guide
+   ## 🔹💻 Usage Guide
    
-   🔹🛠️ Tech Stack
+   ## 🔹🛠️ Tech Stack
    
-   🔹📁 Project Structure
+   ## 🔹📁 Project Structure
    
-   🔹🔧 Development
+   ## 🔹🔧 Development
    
-   🔹🤝 Contributing
+   ## 🔹🤝 Contributing
    
-   🔹📄 License
+   ## 🔹📄 License
    
-   🔹👥 Team
+   ## 🔹👥 Team
    
 
 # 🌟 Introduction
@@ -56,7 +56,7 @@
   
 # 🎯 Features
 
-  # 🎮 Core Gaming Features
+  ## 🎮 Core Gaming Features
   
    🔹 Play-to-Earn Mechanics: Earn Celo Game Tokens (CGT) by playing games
     
@@ -66,7 +66,7 @@
    
    🔹 Leaderboard Tracking: Real-time player rankings and statistics
   
-  # 🎫 NFT Ticketing System
+  ## 🎫 NFT Ticketing System
   
    🔹 Digital Ownership: True ownership of event tickets as NFTs
     
@@ -76,7 +76,7 @@
     
    🔹 Transferable Assets: Easy ticket transfer and gifting
     
-  # 💰 Token Economy
+  ## 💰 Token Economy
   
    🔹 Dual Token System: CGT (utility) and cUSD (stablecoin) integration
     
@@ -88,7 +88,7 @@
     
 # 🏗️ Smart Contracts
 
-  # 📋 Contract Overview
+  ## 📋 Contract Overview
   
    Contract  | Type	 | Purpose	                 |  Status    
     
@@ -104,7 +104,7 @@
     
    GameHub	  |Main	   | Gaming logic & management |✅ Deployed
     
-    ------------------------------------------------------------
+   ------------------------------------------------------------
     
 # 🔗 Contract Details
 
