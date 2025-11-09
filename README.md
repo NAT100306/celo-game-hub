@@ -1,5 +1,6 @@
 # 🎮 Celo Game Hub - Play-to-Earn Gaming DApp
 
+![Celo Platform](https://img.shields.io/badge/Celo-Platform-35D07F?logo=celo&logoColor=white)
 
 
 
