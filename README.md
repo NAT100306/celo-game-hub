@@ -12,29 +12,29 @@
 
 # 📖 Table of Contents
  
-   ## 🔹🌟 Introduction
+   🔹🌟 Introduction
    
-   ## 🔹🎯 Features
+   🔹🎯 Features
    
-   ## 🔹🏗️ Smart Contracts
+   🔹🏗️ Smart Contracts
    
-   ## 🔹🚀 Quick Start
+   🔹🚀 Quick Start
    
-   ## 🔹🔗 Live Deployment
+   🔹🔗 Live Deployment
    
-   ## 🔹💻 Usage Guide
+   🔹💻 Usage Guide
    
-   ## 🔹🛠️ Tech Stack
+   🔹🛠️ Tech Stack
    
-   ## 🔹📁 Project Structure
+   🔹📁 Project Structure
    
-   ## 🔹🔧 Development
+   🔹🔧 Development
    
-   ## 🔹🤝 Contributing
+   🔹🤝 Contributing
    
-   ## 🔹📄 License
+   🔹📄 License
    
-   ## 🔹👥 Team
+   🔹👥 Team
    
 
 # 🌟 Introduction
